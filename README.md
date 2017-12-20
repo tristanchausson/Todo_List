@@ -5,7 +5,7 @@ Réaliser une todo list permettant d'ajouter des choses à se rappeler. Une fois
 * Traduire un besoin client en fonctionnalités techniques.
 * Renforcer sa recherche d'informations autonome.
 * Travailler avec Git.
-* Se familiariser avec HTML, CSS/SASS, JS/jQuery et Gulp.
+* Se familiariser avec HTML, CSS/SASS, JS et Gulp.
 
 
 # User stories
@@ -34,14 +34,14 @@ Réaliser une todo list permettant d'ajouter des choses à se rappeler. Une fois
 	* Gulp-uglify,
 	* merge-stream
 * dependencies:
-	* jQuery,
+	* jQuery,(si Materialize)
 	* Materialize-css (optionnel)
 
 ## Gulp
 * Créer et configurer le fichier gulpfile.js
 	* Les fichiers rendus par Gulp doivent se trouver dans un dossier `dist` à la racine du projet.
-	* Il doit rendre le fichier minifié de jQuery dans `dist/js/`
 	* Si vous utilisez **Materialize**:
+		* Il doit rendre le fichier minifié de jQuery dans `dist/js/`
 		* Il doit rendre le fichier js minifié dans `dist/js/`
 		* Il doit rendre le fichier css minifié dans `dist/css/`
 	```
@@ -58,7 +58,7 @@ Réaliser une todo list permettant d'ajouter des choses à se rappeler. Une fois
 	```
 
 ## Html
-* Créer le squelette et ajouter les liens CSS/JS (pas de CDN)
+* Créer le squelette et ajouter les liens CSS/JS
 * Créer un formulaire simple (form > input > bouton).
 * Créer la base de la todo list (ul).
 
@@ -70,7 +70,7 @@ Réaliser une todo list permettant d'ajouter des choses à se rappeler. Une fois
 	* Rayer les tâches faites.
 
 ## Javascript
-* Ajouter du JS/jQuery pour dynamiser le site:
+* Ajouter du JS pour dynamiser le site:
 	* Ajouter un message de bienvenue à l'ouverture de la page,
 	* Ajouter un listener lors de la soumission du formulaire,
 	* Récupérer le contenu de l'Input lors de la soumission du formulaire,
