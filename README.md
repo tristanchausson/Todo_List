@@ -25,7 +25,7 @@ Réaliser une todo list permettant d'ajouter des choses à se rappeler. Une fois
   └─package.json
 ```
 
-## Packages à installés:
+## NPM: Packages à installés:
 * devDependencies:
 	* Browser-sync,
 	* Gulp,
@@ -40,6 +40,10 @@ Réaliser une todo list permettant d'ajouter des choses à se rappeler. Une fois
 ## Gulp
 * Créer et configurer le fichier gulpfile.js
 	* Les fichiers rendus par Gulp doivent se trouver dans un dossier `dist` à la racine du projet.
+	* Il doit rendre le fichier minifié de jQuery dans `dist/js/`
+	* Si vous utilisez **Materialize**:
+		* Il doit rendre le fichier js minifié dans `dist/js/`
+		* Il doit rendre le fichier css minifié dans `dist/css/`
 	```
 	├─assets/
 	│ ├─js/
@@ -73,7 +77,7 @@ Réaliser une todo list permettant d'ajouter des choses à se rappeler. Une fois
 	* Ajouter la nouvelle tâche soumise via le formulaire dans la todo liste.
 
 
-# Bonus 
+# Bonus
 * Enregistrement des données dans le [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage),
 * Afficher la date/heure de la création de chaque tâche,
 * Quand la tâche est réalisé, afficher la différence de temps entre la création et la validation de la tâche,
