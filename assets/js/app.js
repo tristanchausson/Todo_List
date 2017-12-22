@@ -7,8 +7,10 @@ bouton.addEventListener("click", function(){
         console.log("hello!")
     var content = document.getElementById("textarea1").value;
         console.log(content);
+    
     var li = document.createElement("li");
         console.log(li);
+    
     var check = document.createElement("input");
         check.setAttribute("type", "checkbox");
         check.setAttribute("id", "test"+n);
@@ -20,12 +22,13 @@ bouton.addEventListener("click", function(){
         label.append(content);
             n++;
 
-li.appendChild(label);
+    li.appendChild(label);
 
-box.appendChild(li); 
+    box.appendChild(li); 
 
-console.log(n);
+        console.log(n);
 
+    document.getElementById('textarea1').value = " ";
 
 });
 
